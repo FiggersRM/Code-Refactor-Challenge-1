@@ -132,7 +132,8 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Created a single class for the information on the left side of the page, instead of having individual classes for each */
+.left-side {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -141,47 +142,13 @@ p {
   color: #ffffff;
 }
 
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* Deleted the individual IDs for the images and created a single class for images on the left side of the page */
+.left-side img {
   max-height: 200px;
 }
 
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* Changed the individual classes for the h2 headers to a single h2 element to condense the code */
+h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
